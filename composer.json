@@ -1,0 +1,46 @@
+{
+	"name": "zrt-lab/redisclient",
+	"description": "Zend Framework 2 Redis Client Module",
+	"keywords": [
+        "framework",
+        "zf2",
+        "zend",
+        "zend framework 2",
+        "service",
+        "client",
+        "redis"
+    ],
+    "config": {
+        "process-timeout": 5000
+    },
+    "authors": [
+        {
+            "name": "Luis Alberto Mayta",
+            "email": "slovacus@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/ZrtLab/RedisClient",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "ext-json": "*",
+        "zendframework/zendframework": "2.*"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "dev-master",
+        "phpunit/phpunit": "4.1.0",
+        "phpunit/dbunit": "*",
+        "mockery/mockery": "0.8.0",
+        "fabpot/php-cs-fixer": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "RedisClient": "src/"
+        }
+    },
+    "prefer-stable": true,
+    "config": {
+        "bin-dir": "vendor/bin/"
+    }
+}
