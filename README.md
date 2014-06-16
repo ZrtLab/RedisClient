@@ -1,4 +1,4 @@
 RedisClient
 ===========
 
-cliente para Redis
+Cliente para Redis
