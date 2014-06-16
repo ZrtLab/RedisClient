@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="LammStorage Test" tests="6" assertions="12" failures="0" errors="0" time="0.167379">
+    <testsuite name="LammRedis\Tests\ModuleTest" file="/home/kirihara/Projects/PHP/Zend2/sesiones/demoRedis/src/module/LammRedis/test/LammRedis/ModuleTest.php" tests="3" assertions="5" failures="0" errors="0" time="0.117652">
+      <testcase name="testConfig" class="LammRedis\Tests\ModuleTest" file="/home/kirihara/Projects/PHP/Zend2/sesiones/demoRedis/src/module/LammRedis/test/LammRedis/ModuleTest.php" line="13" assertions="2" time="0.005508"/>
+      <testcase name="testConfigService" class="LammRedis\Tests\ModuleTest" file="/home/kirihara/Projects/PHP/Zend2/sesiones/demoRedis/src/module/LammRedis/test/LammRedis/ModuleTest.php" line="19" assertions="2" time="0.003432"/>
+      <testcase name="testPredisClient" class="LammRedis\Tests\ModuleTest" file="/home/kirihara/Projects/PHP/Zend2/sesiones/demoRedis/src/module/LammRedis/test/LammRedis/ModuleTest.php" line="25" assertions="1" time="0.108712"/>
+    </testsuite>
+    <testsuite name="LammRedis\Tests\Factory\Service\PredisServiceFactoryTest" file="/home/kirihara/Projects/PHP/Zend2/sesiones/demoRedis/src/module/LammRedis/test/LammRedis/src/Factory/Service/PredisServiceFactoryTest.php" tests="2" assertions="5" failures="0" errors="0" time="0.045018">
+      <testcase name="testConfig" class="LammRedis\Tests\Factory\Service\PredisServiceFactoryTest" file="/home/kirihara/Projects/PHP/Zend2/sesiones/demoRedis/src/module/LammRedis/test/LammRedis/src/Factory/Service/PredisServiceFactoryTest.php" line="11" assertions="2" time="0.003058"/>
+      <testcase name="testCreateService" class="LammRedis\Tests\Factory\Service\PredisServiceFactoryTest" file="/home/kirihara/Projects/PHP/Zend2/sesiones/demoRedis/src/module/LammRedis/test/LammRedis/src/Factory/Service/PredisServiceFactoryTest.php" line="17" assertions="3" time="0.041960"/>
+    </testsuite>
+    <testsuite name="LammRedis\Tests\PredisTest" file="/home/kirihara/Projects/PHP/Zend2/sesiones/demoRedis/src/module/LammRedis/test/LammRedis/src/PredisTest.php" tests="1" assertions="2" failures="0" errors="0" time="0.004709">
+      <testcase name="testInstance" class="LammRedis\Tests\PredisTest" file="/home/kirihara/Projects/PHP/Zend2/sesiones/demoRedis/src/module/LammRedis/test/LammRedis/src/PredisTest.php" line="20" assertions="2" time="0.004709"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
